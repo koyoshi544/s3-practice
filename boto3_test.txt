@@ -1,0 +1,11 @@
+This is TEST-DATA.
+----------
+■Ver 1.05  2024/03/07
+Python版（Python 3.11）
+・入出力ファイルのパスと名前のハードコーディングを解消。環境変数で指定するように変更。
+	export KY1_NYUKO=/home/kyoshi/KY1/UTF8_入庫データ.csv
+	export KY1_BUPPIN=/home/kyoshi/KY1/UTF8_物品マスタ.csv
+	export KY1_KOSIN=/home/kyoshi/KY1/KY1_更新データ.csv
+・各ファイルの文字コードはUTF-8
+
+----------
