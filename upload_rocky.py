@@ -1,3 +1,5 @@
+# rocky802のバックアップをS3にアップロード
+# 
 from dotenv import load_dotenv
 import os
 import boto3
