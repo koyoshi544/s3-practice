@@ -7,10 +7,11 @@ import boto3
 load_dotenv()
 
 # 設定値
-s3_file_path = '20250423_kaigohoken.pdf'
+s3_file_path = '20210625_アレルギー検査結果.jpg'
 s3_bucket_name = 'ws3aclewm1il9xopvli7'
-local_file_path = '/tmp/20250423_介護保険認定結果通知書.pdf'
-content_type = 'application/pdf'
+local_file_path = '/tmp/20210625_アレルギー検査結果.jpg'
+content_type = 'image/jpeg'
+# content_type = 'application/pdf'
 
 # 実行内容
 s3 = boto3.resource('s3')
